@@ -15,6 +15,24 @@ body {
     font-family: 'Exo', sans serif;
 }
 
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header section */
+#logo {
+    width: 90%;
+    padding: 5%;
+}
+
 main {
     flex: 1 0 auto;
 }
