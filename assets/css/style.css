@@ -118,7 +118,9 @@ section img {
 }
 
 /* Gallery page */
-
+#gallery {
+    margin-bottom: 20px;
+}
 
 
 /* Footer section */
@@ -127,6 +129,7 @@ footer {
     color: #F5FAF8;
     width: 100%;
     text-align: center;
+    padding: 10px 10px 20px;
 }
 
 h4 {
@@ -142,9 +145,16 @@ h4 {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+    /* Gallery page */
     #photos {
         column-count: 2;
     }
+    /* Footer section */
+    footer {
+        display: flex;
+
+    }
+
 }
 
 /* Media query: tablets and larger (768px and up) */
