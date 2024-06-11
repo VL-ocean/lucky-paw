@@ -94,3 +94,26 @@ nav {
 main {
     flex: 1 0 auto;
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header section */
+    nav {
+        display: block;
+        position: relative;
+        padding-right: 10px;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 10px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
