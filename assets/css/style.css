@@ -36,6 +36,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #F5FAF8;
 }
 
 #logo {
@@ -68,6 +69,7 @@ nav {
     left: 0;
     display: none;
     top: 100%;
+    background-color: #F5FAF8;
 }
 
 #nav-toggle:checked~nav {
