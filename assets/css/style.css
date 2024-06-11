@@ -28,10 +28,31 @@ ul {
 }
 
 /* Header section */
+
+header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
 #logo {
     width: 90%;
     padding: 5%;
 }
+nav li {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #364B44;
+    font-size: 150%;
+    padding: 1%;
+    display: inline-block;
+    font-family: 'Catamaran', sans serif;
+}
+
+/* Main section */
 
 main {
     flex: 1 0 auto;
