@@ -39,17 +39,28 @@ header {
     width: 90%;
     padding: 5%;
 }
-nav li {
+#menu li {
     display: flex;
     align-items: center;
 }
 
-nav a {
+#menu a {
     color: #364B44;
-    font-size: 150%;
-    padding: 1%;
+    font-size: 130%;
+    margin-bottom: 5%;
     display: inline-block;
     font-family: 'Catamaran', sans serif;
+    cursor: pointer;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #F98383;
+    border-radius: 10px;
+}
+
+.active {
+    border-bottom: 2px solid #F98383;
+    border-radius: 10px;
 }
 
 /* Main section */
