@@ -117,9 +117,16 @@ section img {
     margin-bottom: 10px;
 }
 
-/* Our pets page */
+/* Gallery page */
 
 
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+    }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -173,6 +180,11 @@ section img {
         width: 30%;
         align-self: center;
     }
+
+    /* Gallery page */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -180,5 +192,10 @@ section img {
     #menu a:hover {
         border-bottom: 2px solid #F98383;
         border-radius: 10px;
+    }
+
+    /* Gallery page*/
+    #photos {
+        column-count: 4;
     }
 }
