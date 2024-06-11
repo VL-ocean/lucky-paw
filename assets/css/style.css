@@ -71,6 +71,8 @@ nav {
     display: none;
     top: 100%;
     background-color: #F5FAF8;
+    box-shadow: 0 2px 2px #85B5A4;
+    border-radius: 10px;
 }
 
 #nav-toggle:checked~nav {
@@ -92,25 +94,35 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 87px;
-    width: 90%;
+    width: 95%;
+}
+
+#hero {
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/hero_image.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .page-heading {
-    text-align: center;
-    margin: 5px;
-    font-family: 'Catamaran', sans serif;
-    font-size: 120%;
+    display: none;
 }
 
-section h2 {
+.text h2 {
     font-family: 'PT Serif', serif;
     font-style: italic;
     text-align: center;
     margin-bottom: 10px;
+    text-shadow: 1px 1px 2px #85B5A4;
 }
 
-section p {
+.text p {
     padding: 5px;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 15%;
 }
 
 section img {
@@ -180,10 +192,6 @@ h4 {
     }
 
     /* Main section */
-    .page-heading {
-        display: none;
-    }
-
     .hero-image {
         margin-bottom: 30px;
     }
