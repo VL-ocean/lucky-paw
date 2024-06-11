@@ -10,6 +10,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #F5FAF8;
+    color: #364B44;
+    font-family: 'Exo', sans serif;
 }
 
 main {
