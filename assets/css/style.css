@@ -121,6 +121,25 @@ section img {
 
 
 
+/* Footer section */
+footer {
+    background-color: #364B44;
+    color: #F5FAF8;
+    width: 100%;
+    text-align: center;
+}
+
+h4 {
+    padding: 10px;
+    font-family: 'Catamaran', sans serif;
+    font-size: 120%;
+}
+
+#links-icons a, #links-icons i {
+    color: #F5FAF8;
+}
+
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
