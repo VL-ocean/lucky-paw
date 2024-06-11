@@ -33,12 +33,16 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo {
-    width: 90%;
-    padding: 5%;
+    padding: 10px;
+    max-width: 300px;
 }
+
 #menu li {
     display: flex;
     align-items: center;
@@ -62,6 +66,28 @@ header {
     border-bottom: 2px solid #F98383;
     border-radius: 10px;
 }
+
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 40px;
+    padding: 10px;
+}
+
 
 /* Main section */
 
