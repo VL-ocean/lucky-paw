@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     background-color: #F5FAF8;
     color: #364B44;
-    font-family: 'Exo', sans serif;
+    font-family: 'Exo', sans-serif;
 }
 
 img {
@@ -55,7 +55,7 @@ header {
     font-size: 130%;
     margin-bottom: 5%;
     display: inline-block;
-    font-family: 'Catamaran', sans serif;
+    font-family: 'Catamaran', sans-serif;
     cursor: pointer;
 }
 
@@ -135,7 +135,7 @@ section img {
     color: #364B44;
     font-size: 130%;
     margin-bottom: 5%;
-    font-family: 'Catamaran', sans serif;
+    font-family: 'Catamaran', sans-serif;
     text-align: center;
     text-shadow: 1px 1px 2px #85B5A4;
 }
@@ -173,10 +173,6 @@ h3 {
     padding: 5%;
 }
 
-#contact-form {
-    
-}
-
 fieldset {
     border-radius: 10px;
     display: flex;
@@ -186,7 +182,7 @@ fieldset {
 }
 
 legend {
-    font-family: 'Catamaran', sans serif;
+    font-family: 'Catamaran', sans-serif;
     font-size: 120%;
 }
 
@@ -213,11 +209,29 @@ legend {
     background-color: #364B44;
     border: 3px solid #364B44;
     border-radius: 10px;
-}
-
-.form-button > a {    
     color: #F5FAF8;
 }
+
+/* Confirmation section */
+#confirmation {
+    padding: 5%;
+}
+
+#confirmation h2 {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px #85B5A4;
+}
+
+#confirmation p {
+    padding: 5px;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 15%;
+}
+
 
 /* Footer section */
 footer {
@@ -230,7 +244,7 @@ footer {
 
 h4 {
     padding: 10px;
-    font-family: 'Catamaran', sans serif;
+    font-family: 'Catamaran', sans-serif;
     font-size: 120%;
 }
 
