@@ -385,6 +385,20 @@ h4 {
 }
 
 @media screen and (min-width: 1600px) {
+    body {
+        max-width: 2000px;
+    }
+
+    header {
+        max-width: 2000px;
+    }
+
+    /* Main section */
+    #hero {
+        height: 400px;
+    }
+
+    /* Gallery section */
     #photos {
         column-count: 4;
     }
