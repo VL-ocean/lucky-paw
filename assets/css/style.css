@@ -242,14 +242,32 @@ footer {
     padding: 10px 10px 20px;
 }
 
+footer div {
+    width: 100%;
+}
+
 h4 {
     padding: 10px;
     font-family: 'Catamaran', sans-serif;
     font-size: 120%;
 }
 
-#links-icons a, #links-icons i {
-    color: #F5FAF8;
+#links {
+    margin-top: 30px;
+}
+
+#links-icons {
+    display: flex;
+    font-size: 40px;
+}
+
+#links-icons li {    
+    display: block;
+    flex-grow: 0;
+}
+
+#links-icons i {
+    color: #F5FAF8;    
 }
 
 
