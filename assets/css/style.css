@@ -205,6 +205,7 @@ h4 {
         position: relative;
         padding-right: 10px;
         width: fit-content;
+        box-shadow: none;
     }
 
     #menu {
@@ -220,8 +221,8 @@ h4 {
     }
 
     /* Main section */
-    .hero-image {
-        margin-bottom: 30px;
+    #hero {
+        background-position: 75%;
     }
 
     .left {
@@ -260,8 +261,42 @@ h4 {
     }
 }
 
-/* Gallery page */
+/* Larger devices (laptops and desktops, 1024px and up) */
 @media screen and (min-width: 1024px) {
+    /* Main section */
+    #hero {
+        height: 300px;
+    }
+
+    .desktop-view {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left, .right {
+        flex-basis: 40%;
+        flex-grow: 1;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .text {
+        width: 90%
+    }
+    
+    .picture {
+        width: fit-content;
+        height: 400px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .picture img {
+        height: 100%;
+    }
+
+    
+    /* Gallery page */
     #photos {
         column-count: 3;
     }
