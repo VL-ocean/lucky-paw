@@ -168,7 +168,7 @@ h3 {
     font-style: italic;
 }
 
-/* Contact section */
+/* Contact page */
 #contact {
     padding: 5%;
 }
@@ -200,7 +200,7 @@ legend {
     color: #F5FAF8;
 }
 
-.form-button {
+.button {
     display: block;
     margin: 10px auto;
     padding: 5px 10px;
@@ -212,7 +212,7 @@ legend {
     color: #F5FAF8;
 }
 
-/* Confirmation section */
+/* Confirmation page */
 #confirmation {
     padding: 5%;
 }
@@ -230,6 +230,10 @@ legend {
     line-height: 1.5;
     text-align: justify;
     text-indent: 15%;
+}
+
+#confirmation a {
+    color: #F5FAF8;
 }
 
 
@@ -333,6 +337,11 @@ h4 {
     #photos {
         column-count: 2;
     }
+
+    /* Confirmation page */
+    #confirmation {
+        max-width: 700px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -398,7 +407,7 @@ h4 {
         height: 400px;
     }
 
-    /* Gallery section */
+    /* Gallery page */
     #photos {
         column-count: 4;
     }
