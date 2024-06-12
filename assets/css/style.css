@@ -338,6 +338,21 @@ h4 {
         column-count: 2;
     }
 
+    /* Contact page */
+    #contact-form {
+        width: 500px;
+    }
+
+    fieldset {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    label, .text-input {
+        width: 225px;
+    }
+
     /* Confirmation page */
     #confirmation {
         max-width: 700px;
