@@ -169,6 +169,7 @@ h3 {
 }
 
 /* Contact page */
+
 #contact {
     padding: 5%;
 }
@@ -219,6 +220,7 @@ legend {
 }
 
 /* Confirmation page */
+
 #confirmation {
     padding: 5%;
 }
@@ -244,6 +246,7 @@ legend {
 
 
 /* Footer section */
+
 footer {
     background-color: #364B44;
     color: #F5FAF8;
@@ -282,8 +285,10 @@ h4 {
 
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {    
+@media screen and (min-width: 576px) {  
+
     /* Footer section */
+
     footer {
         display: flex;
     }
@@ -291,7 +296,9 @@ h4 {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header section */
+
     nav {
         display: block;
         position: relative;
@@ -313,6 +320,7 @@ h4 {
     }
 
     /* Main section */
+
     #hero {
         background-position: 75%;
     }
@@ -340,11 +348,13 @@ h4 {
     }
 
     /* Gallery page */
+
     #photos {
         column-count: 2;
     }
 
     /* Contact page */
+
     #contact {
         background: no-repeat center / cover url('../images/contact_tablet_screen.jpg');
         border-radius: 10px;
@@ -373,6 +383,7 @@ h4 {
     }
 
     /* Confirmation page */
+
     #confirmation {
         max-width: 700px;
     }
@@ -380,6 +391,7 @@ h4 {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
     #menu a:hover {
         border-bottom: 2px solid #F98383;
         border-radius: 10px;
@@ -401,7 +413,9 @@ h4 {
 
 /* Larger devices (laptops and desktops, 1024px and up) */
 @media screen and (min-width: 1024px) {
+
     /* Main section */
+
     #hero {
         height: 300px;
     }
@@ -435,10 +449,13 @@ h4 {
 
     
     /* Gallery page */
+
     #photos {
         column-count: 3;
     }
 }
+
+/* Larger devices (4k laptops and desktops, 1600px and up) */
 
 @media screen and (min-width: 1600px) {
     body {
@@ -450,12 +467,54 @@ h4 {
     }
 
     /* Main section */
+
     #hero {
         height: 400px;
     }
 
     /* Gallery page */
+
     #photos {
         column-count: 4;
+    }
+
+    /* Contact page */
+
+    #contact {
+        background: none;
+        position: relative;
+    }
+
+    fieldset {
+        background-color: #F5FAF8;
+    }
+
+    .contact-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left-sided {
+        background: no-repeat center / cover url('../images/cat.jpg');
+        border-radius: 10px;
+        height: 600px;
+        min-width: 500px;
+        max-width: 800px;
+        margin: 0;
+    }
+
+    .right-sided {
+        background: no-repeat center / cover url('../images/dog.jpg');
+        border-radius: 10px;
+        height: 600px;
+        min-width: 500px;
+        max-width: 800px;
+        margin: 0;
     }
 }
