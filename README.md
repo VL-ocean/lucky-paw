@@ -1,4 +1,4 @@
-# Lucky Paw
+![Lucky Paw logo](./README-images/lucky-paw-logo-readme.png)
 
 This project is a sample of a website for "Lucky Paw" animal shelter. Its goal is to help people find a pet to adopt. Users can find out about the pets online, schedule a visit and get information about the address and opening hours of the shelter. The website can be extended to include a donation section, events section or visitors` reviews. 
 
@@ -6,21 +6,23 @@ This project is a sample of a website for "Lucky Paw" animal shelter. Its goal i
 
 ## User Experience (UX)
  ### User stories
+ #### 1. User stories based on business goals
 - As an animal shelter owner, I want to familiarize users with the shelter and pets, so I can attract potential customers.
 - As an animal shelter owner I want to attract families, so I can find new homes for the pets.
 - As an animal shelter owner I want to familiarize users with the shelter and pets, so I can encourage them to donate.
+#### 2. User stories based on customer needs
 - As an ordinary person, I want to get pet information online, so I can save my time and resources. 
 - As a shelter visitor, I want to schedule a time and date for a visit, so I can spend time with a particular pet that I like.
 
  ### Design
 - ####  Colour Scheme
-  - 
+  - The main color which was used mostly for background, is #F5FAF8 Harp. Its pair as a main text colour, footer and buttons color is #364B44 Mineral Green. For some shadows and accents was used #85B5A4 Acapulco. For more bright accent was used #F98383 Geraldine. The design was planned as soft, nice to watch and simple.
 
 - ####  Typography 
-  - 
+  - Three fonts are used from Google fonts which are: Catamaran, PT Serif and Exo. Main heading`s font is PT Serif italic. Navigation font is Catamaran and text font is Exo. 
 
- - ####  Imagery
-   - 
+- ####  Imagery
+   - The hero image was used at every page of the website as part of the design scheme. The background of the contact page changes 3 times, depending on the screen width for user`s comfort. The gallery page is bright and colorful due to pets images.
 
 
 ## Technologies Used 
@@ -60,7 +62,21 @@ Balsamiq was used to create the wireframes during the design process
 
 
 ### Validator Testing 
-
+- #### HTML
+  - No errors or warnings to show.
+    - [Home page](./README-images/home_page_validation.png)
+    - [Gallery page](./README-images/gallery_page_validation.png)
+    - [Contact page](./README-images/contact_page_validation.png)
+    - [Confirmation page](./README-images/confirmation_page_validation.png)
+- #### CSS
+  - No errors or warnings to show. (Except the warning about imported Google Fonts "Imported style sheets are not checked in direct input and file upload modes")
+    - [CSS validation](./README-images/css_validation.png)
+- #### Accessibility and perfomance
+  - Using
+    - [Home page](./README-images/)
+    - [Gallery page](./README-images/)
+    - [Contact page](./README-images/)
+    - [Confirmation page](./README-images/)
 
 
 ### Unfixed Bugs
@@ -77,7 +93,7 @@ Balsamiq was used to create the wireframes during the design process
       - Under "Source", click the dropdown called "None" and select "Master Branch".
       - The page will automatically refresh.
       - Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
-      - live link for the page can be found here [Lucky Paw]()
+      - live link for the page can be found here [Lucky Paw](https://vl-ocean.github.io/lucky-paw/index.html)
 - Forking the GitHub Repository
     - By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps
      - Log in to GitHub and locate the GitHub Repository
