@@ -175,6 +175,7 @@ h3 {
 }
 
 #contact-form {
+    position: relative;
     z-index: 2;
 }
 
