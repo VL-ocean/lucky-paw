@@ -40,6 +40,7 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 GitHub is used to store the projects code after being pushed from Git.
  - #### [Balsamic](https://balsamiq.com/)
 Balsamiq was used to create the wireframes during the design process
+
 ![Balsamic image](./README-images/wireframe_main.png)
 ![Balsamic image](./README-images/wireframe_gallery.png)
 ![Balsamic image](./README-images/wireframe_contact.png)
@@ -49,36 +50,47 @@ Balsamiq was used to create the wireframes during the design process
 The website has four pages. Each page has a heading with logo and navigation bar (icon for mobile) and a footer.
 
 - ### Logo
+
 ![Logo](./README-images/lucky-paw-logo-readme.png)
  #### It informs the user about organisation's name. It's also clickable and returns the user to the main page from any other page on the website.
 
 - ### Navigation
+
 ![Navigation](./README-images/nav.png) 
 ![Navigation on mobile](./README-images/nav_mobile.png)
  #### The navigation bar provides the structure of the website. It shows the user what page it is on the screen. It gives the user an ability to move to any other page on the website.
 
 - ### Footer
+
 ![Footer](./README-images/footer.png)
 ![Footer on mobile](./README-images/footer_mobile.png)
  #### The footer is devided into three sections. User can find an addfress, opening hours and links to the social media, which opens in a separate tab.
 
 - ### Hero image
+
 ![Hero image](./README-images/hero%20image.png)
  #### It attracts the user attention, showing the cat in the woman's hands, it encourages the user to experience the happiness of having a pet. The hero image is present on all pages as part of the design.
 
 - ### Home page 
+
 ![Home page](./README-images/home_page.png)
  #### It contains of four images, each having a heading and paragraph. The images are supporting the content of the paragraph, increasing its effect. The layout of the images and text are chaning depending on the device (mobile, tablet, desktop).
 
 - ### Gallery page 
+
 ![Gallery page](./README-images/gallery_page.png)
  #### The purpose of this page is to introduce the pets to the user. It has a heading and 23 pictures of different pets with their names and age displayed at the top of the pictures. This page gives the user a possibility to choose a future pet and remember the name to use it later in the form.
 
-- ### Contact page 
+- ### Contact page / Form
+
 ![Contact page](./README-images/contact_page.png)
- #### This is the place where the user can schedule the visit to the center. The event type is the reason for the visit and there is also a list of pets' names, so that the user can specify who is to be visited/adopted. The general information about the user is required such as name and phone number for contact in case of any changes. The calendar and time parts are provided to eliminate the need to type that information manually.
+ #### This is the place where the user can schedule the visit to the center. 
+ - The general information about the user is required such as name and phone number for contact in case of any changes. The phone number input does not allow to enter letters or more digits than neccessary.
+ - The calendar and time parts are provided to eliminate the need to type that information manually. The calendar is set to only allow the user to choose dates from 24.06.2024 to 31.12.2024 and time from 9 am to 8 pm. 
+ - The event type is the reason for the visit and there is also a list of pets' names, so that the user can specify who is to be visited/adopted. 
 
 - ### Confirmation page 
+
 ![Confirmation page](./README-images/confirmation_page.png)
  #### The user is assured that the form he filled has been received and will be processed. There is also an email address provided in case the user wants to cancel the appointment later.
 
@@ -118,24 +130,25 @@ The website was tested on the following browsers and is working well:
     - [Home page](./README-images/home_page_validation.png)
     - [Gallery page](./README-images/gallery_page_validation.png)
     - [Contact page](./README-images/contact_page_validation.png)
-    - [Confirmation page](./README-images/confirmation_page_validation.png)
+    - [Confirmation page](./README-images/confirmation_page_validation.png)   
 - #### CSS
   - No errors or warnings to show. (Except the warning about imported Google Fonts "Imported style sheets are not checked in direct input and file upload modes")
     - [CSS validation](./README-images/css_validation.png)
-- #### Accessibility and perfomance
+
+### Accessibility and perfomance
   - Using Google Lighthouse I confirmed that the website is readable and accessible. It performs mostly well.
     - [Home page](./README-images/home_page_lighthouse.png)
     - [Gallery page](./README-images/gallery_page_lighthouse.png)
     - [Contact page](./README-images/contact_page_lighthouse.png)
     - [Confirmation page](./README-images/confirmation_page_lighthouse.png)
 
-
 ### Unfixed Bugs
+- The form cannot be validated to specify the input characters. Currently you can use digits as your name and surname. The day of the week cannot be validated too, the users can choose Sunday, even tho the shelter is closed at this time. The time input allows to choose 9am for Saturday and 8pm for weekdays, which is also incorrect. This can be fixed using JavaScript.
 
 
 
 ## Deployment
-- Github pages
+- ### Github pages
     - This project was deployed to GitHub Pages using the following steps
       - Log in to GitHub and locate the GitHub Repository
       - At the top of the Repository (not top of page), locate the "Settings" Button on 
@@ -145,12 +158,12 @@ The website was tested on the following browsers and is working well:
       - The page will automatically refresh.
       - Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
       - live link for the page can be found here [Lucky Paw](https://vl-ocean.github.io/lucky-paw/index.html)
-- Forking the GitHub Repository
+- ### Forking the GitHub Repository
     - By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps
      - Log in to GitHub and locate the GitHub Repository
      - At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
      - You should now have a copy of the original repository in your GitHub account.
-- Making a Local Clone
+- ### Making a Local Clone
    - Log in to GitHub and locate the GitHub Repository
    - Under the repository name, click "Clone or download".
    -  To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
@@ -163,7 +176,7 @@ The website was tested on the following browsers and is working well:
 
 ## Credits 
 
-  - Tutorials & Content
+  - ### Tutorials & Content
     - [Love Running project](https://github.com/Code-Institute-Solutions/love-running-v3)
     - [Code institute](https://learn.codeinstitute.net/)
     - [W3Schools](https://www.w3schools.com/)
@@ -171,7 +184,7 @@ The website was tested on the following browsers and is working well:
     - [Lake-dippers Readme](https://github.com/tmarkec/Lake-dippers)
     - [Bark 'n bath Readme](https://github.com/vtoth13/bark-n-bath/blob/main/README.md)    
 
-  - Graphics
+  - ### Graphics
     - [ColorSpace](https://mycolor.space/)
     - [Adobe Color Contrast Checker](https://color.adobe.com/create/color-contrast-analyzer)
     - [Tinify image optimizer](https://tinypng.com/)
@@ -180,16 +193,16 @@ The website was tested on the following browsers and is working well:
     - [hex to rgba](https://rgbacolorpicker.com/hex-to-rgba)
     - [Google fonts](https://fonts.google.com/knowledge)
 
-  - Photos & Logo
+  - ### Photos & Logo
     - [Pexels](https://www.pexels.com/) 
     - [Pixabay](https://pixabay.com/de/) 
     - [LOGO](https://logo.com/)
 
-  - Text content
+  - ### Text content
     - [AI Text Generator](https://deepai.org/chat/text-generator)
     - [Fake address Generator](https://countryzipcode.com/fake-address-generator)  
 
-  - Acknowledgment
+  - ### Acknowledgment
     - [Cohort Facilitator - Marko](https://github.com/tmarkec) for support in the classroom and guidence through the course.
     - [Mentor - Dick Vlaanderen](https://github.com/dickvla) for support throughout the project, ideas and advices.
     - My sister Anastasiia for help in design and graphic content.
