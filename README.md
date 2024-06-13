@@ -44,20 +44,53 @@ Balsamiq was used to create the wireframes during the design process
 ![Balsamic image](./README-images/wireframe_gallery.png)
 ![Balsamic image](./README-images/wireframe_contact.png)
 
-## Features 
+## Existing Features 
+The website has four pages. Each page has a heading with logo and navigation bar (icon for mobile) and a footer.
 
 
+### Logo
+![Logo](./README-images/lucky-paw-logo-readme.png)
+ #### It informs the user about organisation's name. It's also clickable and returns the user to the main page from any other page on the website.
 
-### Existing Features
+### Navigation
+![Navigation](./README-images/nav.png) 
+![Navigation on mobile](./README-images/nav_mobile.png)
+ #### The navigation bar provides the structure of the website. It shows the user what page it is on the screen. It gives the user an ability to move to any other page on the website.
 
+ ### Footer
+![Footer](./README-images/footer.png)
+![Footer on mobile](./README-images/footer_mobile.png)
+ #### The footer is devided into three sections. User can find an addfress, opening hours and links to the social media, which opens in a separate tab.
 
+ ### Hero image
+![Hero image](./README-images/hero%20image.png)
+ #### It attracts the user attention, showing the cat in the woman's hands, it encourages the user to experience the happiness of having a pet. The hero image is present on all pages as part of the design.
 
-### Features Left to Implement
+### Home page 
+![Home page](./README-images/home_page.png)
+ #### It contains of four images, each having a heading and paragraph. The images are supporting the content of the paragraph, increasing its effect. The layout of the images and text are chaning depending on the device (mobile, tablet, desktop).
 
+### Gallery page 
+![Gallery page](./README-images/gallery_page.png)
+ #### The purpose of this page is to introduce the pets to the user. It has a heading and 23 pictures of different pets with their names and age displayed at the top of the pictures. This page gives the user a possibility to choose a future pet and remember the name to use it later in the form.
 
+ ### Contact page 
+![Contact page](./README-images/contact_page.png)
+ #### This is the place where the user can schedule the visit to the center. The event type is the reason for the visit and there is also a list of pets' names, so that the user can specify who is to be visited/adopted. The general information about the user is required such as name and phone number for contact in case of any changes. The calendar and time parts are provided to eliminate the need to type that information manually.
+
+### Confirmation page 
+![Confirmation page](./README-images/confirmation_page.png)
+ #### The user is assured that the form he filled has been received and will be processed. There is also an email address provided in case the user wants to cancel the appointment later.
+
+## Future features 
+- Donation section/page
+- News section/page
+- Reviews section/page with visitors' reviews or/and pictures.
+- The actual Gallery with photos of events or daily life of the pets.
+- The button at the bottom of the home page and/or gallery page which leads the user straight to contact page if the user wants to fill the form right away.
 
 ## Testing 
-
+### Manual Testing
 
 
 
@@ -72,11 +105,11 @@ Balsamiq was used to create the wireframes during the design process
   - No errors or warnings to show. (Except the warning about imported Google Fonts "Imported style sheets are not checked in direct input and file upload modes")
     - [CSS validation](./README-images/css_validation.png)
 - #### Accessibility and perfomance
-  - Using
-    - [Home page](./README-images/)
-    - [Gallery page](./README-images/)
-    - [Contact page](./README-images/)
-    - [Confirmation page](./README-images/)
+  - Using Google Lighthouse I confirmed that the website is readable and accessible. It performs mostly well.
+    - [Home page](./README-images/home_page_lighthouse.png)
+    - [Gallery page](./README-images/gallery_page_lighthouse.png)
+    - [Contact page](./README-images/contact_page_lighthouse.png)
+    - [Confirmation page](./README-images/confirmation_page_lighthouse.png)
 
 
 ### Unfixed Bugs
