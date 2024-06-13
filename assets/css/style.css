@@ -209,7 +209,6 @@ legend {
 .text-input:focus {
     background-color: #85B5A4;
     color: #F5FAF8;
-    border-color: transparent;
 }
 
 .button {
@@ -268,10 +267,11 @@ footer div {
     width: 100%;
 }
 
-h4 {
+footer h3 {
     padding: 10px;
     font-family: 'Catamaran', sans-serif;
     font-size: 120%;
+    font-style: normal;
 }
 
 #links {
