@@ -2,7 +2,7 @@
 
 This project is a sample of a website for "Lucky Paw" animal shelter. Its goal is to help people find a pet to adopt. Users can find out about the pets online, schedule a visit and get information about the address and opening hours of the shelter. The website can be extended to include a donation section, events section or visitors` reviews. 
 
-![Responsice Mockup]()
+![Responsice Mockup](./README-images/responsive.png)
 
 ## User Experience (UX)
  ### User stories
