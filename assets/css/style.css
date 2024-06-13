@@ -245,6 +245,10 @@ legend {
     text-indent: 15%;
 }
 
+#button-link {
+    width: fit-content;
+}
+
 #confirmation a {
     color: #F5FAF8;
 }
