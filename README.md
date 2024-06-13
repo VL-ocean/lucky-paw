@@ -112,8 +112,32 @@ Balsamiq was used to create the wireframes during the design process
 
 ## Credits 
 
-  - Code & Content
+  - Tutorials & Content
+    - [Love Running project](https://github.com/Code-Institute-Solutions/love-running-v3)
+    - [Code institute](https://learn.codeinstitute.net/)
+    - [W3Schools](https://www.w3schools.com/)
+    - [MDN](https://developer.mozilla.org/en-US/)
+    - [Lake-dippers Readme](https://github.com/tmarkec/Lake-dippers)
+    - [Bark 'n bath Readme](https://github.com/vtoth13/bark-n-bath/blob/main/README.md)    
 
-  - Media
+  - Graphics
+    - [ColorSpace](https://mycolor.space/)
+    - [Adobe Color Contrast Checker](https://color.adobe.com/create/color-contrast-analyzer)
+    - [Tinify image optimizer](https://tinypng.com/)
+    - [Font Awesome](https://fontawesome.com/) 
+    - [Name that color](https://chir.ag/projects/name-that-color/#6195ED)
+    - [hex to rgba](https://rgbacolorpicker.com/hex-to-rgba)
+
+  - Photos & Logo
+    - [Pexels](https://www.pexels.com/) 
+    - [Pixabay](https://pixabay.com/de/) 
+    - [LOGO](https://logo.com/)
+
+  - Text content
+    - [AI Text Generator](https://deepai.org/chat/text-generator)
+    - [Fake address Generator](https://countryzipcode.com/fake-address-generator)  
 
   - Acknowledgment
+    - [Cohort Facilitator - Marko](https://github.com/tmarkec) for support in the classroom and guidence through the course.
+    - [Mentor - Dick Vlaanderen](https://github.com/dickvla) for support throughout the project, ideas and advices.
+    - My sister Anastasiia for help in design and graphic content.
