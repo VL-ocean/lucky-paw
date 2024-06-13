@@ -371,6 +371,19 @@ h4 {
         border-bottom: 2px solid #F98383;
         border-radius: 10px;
     }
+
+    .button:hover {
+        background-color: #F5FAF8;
+        color: #F98383;
+        border-color: #F98383;
+        cursor: pointer;
+    }
+
+    #button-link:hover a {
+        color: #F98383;
+    }
+
+    
 }
 
 /* Larger devices (laptops and desktops, 1024px and up) */
