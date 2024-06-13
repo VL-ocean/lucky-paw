@@ -1,10 +1,12 @@
 ![Lucky Paw logo](./README-images/lucky-paw-logo-readme.png)
 
-This project is a sample of a website for "Lucky Paw" animal shelter. Its goal is to help people find a pet to adopt. Users can find out about the pets online, schedule a visit and get information about the address and opening hours of the shelter. The website can be extended to include a donation section, events section or visitors` reviews. 
+This project is a sample of a website for "Lucky Paw" animal shelter. Its goal is to help people find a pet to adopt. Users can find out about the pets online, schedule a visit and get information about the address and opening hours of the shelter. 
 
 ![Responsice Mockup](./README-images/responsive.png)
 
+
 ## User Experience (UX)
+
  ### User stories
  #### 1. User stories based on business goals
 - As an animal shelter owner, I want to familiarize users with the shelter and pets, so I can attract potential customers.
@@ -26,14 +28,12 @@ This project is a sample of a website for "Lucky Paw" animal shelter. Its goal i
 
 
 ## Technologies Used 
+
  ### Languages Used 
 - HTML5 
 - CSS3
- ### Frameworks, Libraries & Programes Used
-- #### [Google fonts](https://fonts.google.com/knowledge)
-Google fonts were used to import the '' font into the style.css file which is used on all pages throughout the project
- - #### [Font Awesome](https://fontawesome.com/)
-Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+ ### Programes Used
  - #### [Git](https://gitpod.io/)
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
   - #### [GitHub](https://github.com/)
@@ -44,43 +44,44 @@ Balsamiq was used to create the wireframes during the design process
 ![Balsamic image](./README-images/wireframe_gallery.png)
 ![Balsamic image](./README-images/wireframe_contact.png)
 
+
 ## Existing Features 
 The website has four pages. Each page has a heading with logo and navigation bar (icon for mobile) and a footer.
 
-
-### Logo
+- ### Logo
 ![Logo](./README-images/lucky-paw-logo-readme.png)
  #### It informs the user about organisation's name. It's also clickable and returns the user to the main page from any other page on the website.
 
-### Navigation
+- ### Navigation
 ![Navigation](./README-images/nav.png) 
 ![Navigation on mobile](./README-images/nav_mobile.png)
  #### The navigation bar provides the structure of the website. It shows the user what page it is on the screen. It gives the user an ability to move to any other page on the website.
 
- ### Footer
+- ### Footer
 ![Footer](./README-images/footer.png)
 ![Footer on mobile](./README-images/footer_mobile.png)
  #### The footer is devided into three sections. User can find an addfress, opening hours and links to the social media, which opens in a separate tab.
 
- ### Hero image
+- ### Hero image
 ![Hero image](./README-images/hero%20image.png)
  #### It attracts the user attention, showing the cat in the woman's hands, it encourages the user to experience the happiness of having a pet. The hero image is present on all pages as part of the design.
 
-### Home page 
+- ### Home page 
 ![Home page](./README-images/home_page.png)
  #### It contains of four images, each having a heading and paragraph. The images are supporting the content of the paragraph, increasing its effect. The layout of the images and text are chaning depending on the device (mobile, tablet, desktop).
 
-### Gallery page 
+- ### Gallery page 
 ![Gallery page](./README-images/gallery_page.png)
  #### The purpose of this page is to introduce the pets to the user. It has a heading and 23 pictures of different pets with their names and age displayed at the top of the pictures. This page gives the user a possibility to choose a future pet and remember the name to use it later in the form.
 
- ### Contact page 
+- ### Contact page 
 ![Contact page](./README-images/contact_page.png)
  #### This is the place where the user can schedule the visit to the center. The event type is the reason for the visit and there is also a list of pets' names, so that the user can specify who is to be visited/adopted. The general information about the user is required such as name and phone number for contact in case of any changes. The calendar and time parts are provided to eliminate the need to type that information manually.
 
-### Confirmation page 
+- ### Confirmation page 
 ![Confirmation page](./README-images/confirmation_page.png)
  #### The user is assured that the form he filled has been received and will be processed. There is also an email address provided in case the user wants to cancel the appointment later.
+
 
 ## Future features 
 - Donation section/page
@@ -90,9 +91,26 @@ The website has four pages. Each page has a heading with logo and navigation bar
 - The button at the bottom of the home page and/or gallery page which leads the user straight to contact page if the user wants to fill the form right away.
 
 ## Testing 
-### Manual Testing
 
+### Responsiveness
+The website was developed from mobile (320px) to desktop (2000px) and was adapted to fit almost all screens. The breakpoints are:
+- 320px;
+- 576px;
+- 768px;
+- 992px;
+- 1024px;
+- 1600px;
+- 2000px.
 
+![Responsice Mockup](./README-images/responsive2.png)
+
+### Supported browsers
+The website was tested on the following browsers and is working well:
+- Opera
+- Firefox
+- Chrome
+- Microsoft Edge
+- Savannah
 
 ### Validator Testing 
 - #### HTML
@@ -160,6 +178,7 @@ The website has four pages. Each page has a heading with logo and navigation bar
     - [Font Awesome](https://fontawesome.com/) 
     - [Name that color](https://chir.ag/projects/name-that-color/#6195ED)
     - [hex to rgba](https://rgbacolorpicker.com/hex-to-rgba)
+    - [Google fonts](https://fonts.google.com/knowledge)
 
   - Photos & Logo
     - [Pexels](https://www.pexels.com/) 
