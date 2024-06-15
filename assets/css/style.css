@@ -100,10 +100,11 @@ main {
 #hero {
     height: 200px;
     width: 100%;
-    background-image: url("../images/hero_image.jpg");
+    background-image: url("../images/hero_image.webp");
     background-size: cover;
     margin-bottom: 20px;
     border-radius: 10px;
+    background-position: 75%;
 }
 
 .page-heading {
@@ -330,10 +331,6 @@ footer h3 {
 
     /* Main section */
 
-    #hero {
-        background-position: 75%;
-    }
-
     .left {
         display: flex;
         flex-direction: row-reverse;
@@ -365,7 +362,7 @@ footer h3 {
     /* Contact page */
 
     #contact {
-        background: no-repeat center / cover url('../images/contact_tablet_screen.jpg');
+        background: no-repeat center / cover url('../images/contact_tablet_screen.webp');
         border-radius: 10px;
         height: fit-content;
         width: 100%;
@@ -510,7 +507,7 @@ footer h3 {
     }
 
     .left-sided {
-        background: no-repeat center / cover url('../images/cat.jpg');
+        background: no-repeat center / cover url('../images/cat.webp');
         border-radius: 10px;
         height: 600px;
         min-width: 500px;
@@ -519,7 +516,7 @@ footer h3 {
     }
 
     .right-sided {
-        background: no-repeat center / cover url('../images/dog.jpg');
+        background: no-repeat center / cover url('../images/dog.webp');
         border-radius: 10px;
         height: 600px;
         min-width: 500px;
