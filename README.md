@@ -2,6 +2,9 @@
 
 This project is a sample of a website for "Lucky Paw" animal shelter. Its goal is to help people find a pet to adopt. Users can find out about the pets online, schedule a visit and get information about the address and opening hours of the shelter. 
 
+Click here to visit [`Lucky Paw`](https://vl-ocean.github.io/lucky-paw/index.html) website 
+
+
 ![Responsice Mockup](./README-images/responsive.png)
 
 
@@ -38,6 +41,8 @@ This project is a sample of a website for "Lucky Paw" animal shelter. Its goal i
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
   - #### [GitHub](https://github.com/)
 GitHub is used to store the projects code after being pushed from Git.
+  - #### [GitPod](https://www.gitpod.io/)
+Gitpod was used as a platform to develop code in ready-to-code developer environment.
  - #### [Balsamic](https://balsamiq.com/)
 Balsamiq was used to create the wireframes during the design process
 
@@ -105,24 +110,32 @@ The website has four pages. Each page has a heading with logo and navigation bar
 ## Testing 
 
 ### Responsiveness
-The website was developed from mobile (320px) to desktop (2000px) and was adapted to fit almost all screens. The breakpoints are:
-- 320px;
-- 576px;
-- 768px;
-- 992px;
-- 1024px;
-- 1600px;
-- 2000px.
+The website was developed from mobile (320px) to desktop (2000px) and was adapted to fit almost all screens. 
+
+Screen resolution | Pass
+--- | :---:
+320px | &check;
+576px | &check;
+768px | &check;
+992px | &check;
+1024px | &check;
+1600px | &check;
+2000px | &check;
+
 
 ![Responsice Mockup](./README-images/responsive2.png)
 
 ### Supported browsers
 The website was tested on the following browsers and is working well:
-- Opera
-- Firefox
-- Chrome
-- Microsoft Edge
-- Savannah
+
+Browser | Pass
+--- | :---:
+Chrome | &check;
+Opera | &check;
+Firefox | &check;
+Microsoft Edge | &check;
+Savannah | &check;
+
 
 ### Validator Testing 
 - #### HTML
@@ -136,11 +149,16 @@ The website was tested on the following browsers and is working well:
     - [CSS validation](./README-images/css_validation.png)
 
 ### Accessibility and perfomance
-  - Using Google Lighthouse I confirmed that the website is readable and accessible. It performs mostly well.
+  - Using Google Lighthouse I confirmed that the website is readable and accessible. It performs well.
     - [Home page](./README-images/home_page_lighthouse.png)
     - [Gallery page](./README-images/gallery_page_lighthouse.png)
     - [Contact page](./README-images/contact_page_lighthouse.png)
     - [Confirmation page](./README-images/confirmation_page_lighthouse.png)
+
+
+### Fixed Bugs
+
+- Due to images' size Home page and Gallery page were dropping in Perfomance. To avoid it, all images were restocked in a smaller size and converted to Webp format. They were also optimized. As the result, the pages load much faster.
 
 ### Unfixed Bugs
 - The form cannot be validated to specify the input characters. Currently you can use digits as your name and surname. The day of the week cannot be validated too, the users can choose Sunday, even tho the shelter is closed at this time. The time input allows to choose 9am for Saturday and 8pm for weekdays, which is also incorrect. This can be fixed using JavaScript.
@@ -188,10 +206,14 @@ The website was tested on the following browsers and is working well:
     - [ColorSpace](https://mycolor.space/)
     - [Adobe Color Contrast Checker](https://color.adobe.com/create/color-contrast-analyzer)
     - [Tinify image optimizer](https://tinypng.com/)
+    - [Convertio](https://convertio.co/)
+    - [Cloudconvert](https://cloudconvert.com/)
+    - [Pixelied](https://pixelied.com/convert/jpg-converter)
     - [Font Awesome](https://fontawesome.com/) 
     - [Name that color](https://chir.ag/projects/name-that-color/#6195ED)
     - [hex to rgba](https://rgbacolorpicker.com/hex-to-rgba)
     - [Google fonts](https://fonts.google.com/knowledge)
+    - [Fontjoy](https://fontjoy.com/)
 
   - ### Photos & Logo
     - [Pexels](https://www.pexels.com/) 
