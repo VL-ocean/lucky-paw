@@ -22,6 +22,7 @@ img {
 
 a {
     text-decoration: none;
+    color: #364B44;
 }
 
 ul {
@@ -124,6 +125,13 @@ main {
     line-height: 1.5;
     text-align: justify;
     text-indent: 15%;
+}
+
+.text-link {
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 section img {

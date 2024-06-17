@@ -106,6 +106,7 @@ The website has four pages. Each page has a heading with logo and navigation bar
 - Reviews section/page with visitors' reviews or/and pictures.
 - The actual Gallery with photos of events or daily life of the pets.
 - The button at the bottom of the home page and/or gallery page which leads the user straight to contact page if the user wants to fill the form right away.
+- Dark Mode toggle
 
 ## Testing 
 
@@ -155,7 +156,6 @@ Savannah | &check;
     - [Contact page](./README-images/contact_page_lighthouse.png)
     - [Confirmation page](./README-images/confirmation_page_lighthouse.png)
 
-
 ### Functional texting
 
 Action |  Expected result | Pass
@@ -182,6 +182,14 @@ Fill out the "Personal Data" and "Date & Time" sections as per the format and re
 Select the pet from the list, then click on 'Submit' button of the form on the contact page  | Receive message ['Please select an item in the list'](./README-images/form_event_message.png) | &check;
 Fill out ['all sections'](./README-images/form_all_sections.png) as per the format and requirements, then click on 'Submit' button of the form on the contact page | Open the confirmation page with ['thank you'](./README-images/form_thank_you_message.png) message | &check;
 Click on 'Back to home page' button on the confirmation page  | Open the home page | &check;
+
+### User Stories testing
+
+- As an ordinary person, I want to get pet information online, so I can save my time and resources. 
+  - Once I click on the link of the website, I land on the home page. I see the information about the shelter, how I can help them, and I also see the navigation menu. I click on "Our Pets" to go to the gallery page, where I can see the pets available for adoption. I can find their names and age. Once I choose a pet, I click on "Get in Touch" and fill out the form.
+
+- As a shelter visitor, I want to schedule a time and date for a visit, so I can spend time with a particular pet that I like. 
+  - Once I click on the link of the website, I land on the home page. I see the information about the shelter, how I can help them, and I also see the navigation menu. I click on "Get in Touch" since I already know which pet I am interested in. I fill out the form, I can also select the pet name and the event type such as 'feed & bath' or 'playtime'. When I click on 'Submit', I get a confirmaton that the form has been filled out. If I have any additional questions, I can use an email address to send an email. 
 
 ### Fixed Bugs
 
