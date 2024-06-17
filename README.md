@@ -193,6 +193,14 @@ Click on 'Back to home page' button on the confirmation page  | Open the home pa
 
 ### Fixed Bugs
 
+- The navigation menu wasn`t looking good on mobile due to its size. To fix it I followed the tutorial from Love Running project and added the checkbox. When using it, the navigation menu is placed in a separate container, which is shown only when you click on the icon. After you click on the icon again, the menu is hidden. It fixed the issue with displaying the navigation for mobile users.
+
+- While testing the website using Lighthouse, the bug with icons appeared. They were too small to click on for mobile users. To fix that I removed the names of the social websites and left only the icons in footer. I have increased them in size to make them usable for mobile users.
+
+- When testing the form, I noticed that it becomes too wide for larger screens. To fix it, I limited the width of the form, and used flexbox to make lable and input the same row. As the result, the form looks better on larger screens and doesn`t take all the place on the page.
+
+- After adding the background for tablet view on the contact page, the form wasn`t available for typing in or submiting. It happened because the container with background image was overlapping the form itself. To make the form usable again I added z-index in CSS to the form.
+
 - Due to images' size Home page and Gallery page were dropping in Perfomance. To avoid it, all images were restocked in a smaller size and converted to Webp format. They were also optimized. As the result, the pages load much faster.
 
 ### Unfixed Bugs
