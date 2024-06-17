@@ -79,7 +79,7 @@ The website has four pages. Each page has a heading with logo and navigation bar
 - ### Home page 
 
 ![Home page](./README-images/home_page.png)
- #### It contains of four images, each having a heading and paragraph. The images are supporting the content of the paragraph, increasing its effect. The layout of the images and text are chaning depending on the device (mobile, tablet, desktop).
+ #### It contains of four images, each having a heading and paragraph. The images are supporting the content of the paragraph, increasing its effect. The layout of the images and text are chaning depending on the device (mobile, tablet, desktop). In the last paragraph, there is an embedded link that takes the user to the contact page.
 
 - ### Gallery page 
 
@@ -89,7 +89,7 @@ The website has four pages. Each page has a heading with logo and navigation bar
 - ### Contact page / Form
 
 ![Contact page](./README-images/contact_page.png)
- #### This is the place where the user can schedule the visit to the center. 
+ #### This is the place where the user can schedule the visit to the center. Mandatory fields are marked for the user's convenience. 
  - The general information about the user is required such as name and phone number for contact in case of any changes. The phone number input does not allow to enter letters or more digits than neccessary.
  - The calendar and time parts are provided to eliminate the need to type that information manually. The calendar is set to only allow the user to choose dates from 24.06.2024 to 31.12.2024 and time from 9 am to 8 pm. 
  - The event type is the reason for the visit and there is also a list of pets' names, so that the user can specify who is to be visited/adopted. 
@@ -105,10 +105,10 @@ The website has four pages. Each page has a heading with logo and navigation bar
 - News section/page
 - Reviews section/page with visitors' reviews or/and pictures.
 - The actual Gallery with photos of events or daily life of the pets.
-- The button at the bottom of the home page and/or gallery page which leads the user straight to contact page if the user wants to fill the form right away.
+- The button at the bottom of the gallery page which leads the user straight to contact page if the user wants to fill the form right away.
 - Dark Mode toggle
 
-## Testing 
+## Testing  
 
 ### Responsiveness
 The website was developed from mobile (320px) to desktop (2000px) and was adapted to fit almost all screens. 
