@@ -156,6 +156,10 @@ Savannah | &check;
     - [Confirmation page](./README-images/confirmation_page_lighthouse.png)
 
 
+### Functional texting
+
+
+
 ### Fixed Bugs
 
 - Due to images' size Home page and Gallery page were dropping in Perfomance. To avoid it, all images were restocked in a smaller size and converted to Webp format. They were also optimized. As the result, the pages load much faster.
