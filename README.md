@@ -158,7 +158,30 @@ Savannah | &check;
 
 ### Functional texting
 
-
+Action |  Expected result | Pass
+--- | --- | :---:
+Click on logo on the top left side of the website | Open the home page | &check;
+Click on icon of the menu (mobile) | Open the navigation menu | &check;
+Click on icon of the menu again (mobile) | Close the navigation menu | &check;
+Click on 'About us' navigation item | Open the home page | &check;
+Click on 'Our Pets' navigation item | Open the gallery page | &check;
+Click on 'Get in Touch' navigation item | Open the contact page | &check;
+Click on 'Facebook' footer icon | Open Facebook page in a new tab | &check;
+Click on 'Instagram' footer icon | Open Instagram page in a new tab | &check;
+Click on 'TikTok' footer icon | Open TikTok page in a new tab | &check;
+Click on 'Submit' button without filling any fields on the form on the contact page  | Receive message ['Please fill in this field'](./README-images/form_fname_message.png) | &check;
+Fill in the first name only, then click on 'Submit' button of the form on the contact page  | Receive message ['Please fill in this field'](./README-images/form_lname_message.png) | &check;
+Fill in the first name and the last name only, then click on 'Submit' button of the form on the contact page | Receive message ['Please fill in this field'](./README-images/form_tel_message.png) | &check;
+Type in letters in the phone number field in the form on the contact page | Receive message ['Please match the format requested'](./README-images/form_tel_format_message.png) | &check;
+Type in 8 digits in the phone number field in the form on the contact page | Receive message ['Please match the format requested'](./README-images/form_tel_format_incomplete_message.png) | &check;
+Type in more than 10 digits in the phone number field in the form on the contact page | Extra digits are not displayed on the screen. Only the first 10 digits are accepted | &check;
+Fill out the "Personal Data" section as per the format and requirements, then click on 'Submit' button of the form on the contact page | Receive message ['Please fill in this field'](./README-images/form_date_message.png) | &check;
+Fill in the date (only the dates from 24.06.2024 to 31.12.2024 are accepted by the form, in Chrome it does not allow you to even try to choose other ['date'](./README-images/Chrome_choose_date.png) or ['year'](./README-images/Chrome_choose_year.png)), then click on 'Submit' button of the form on the contact page  | Receive message ['Please fill in this field'](./README-images/form_time_message.png) | &check;
+Choose time outside working hours, then click on 'Submit' button of the form on the contact page | Receive message ['Value must be 09:00 or later'](./README-images/form_time_too_early.png) or ['Value must be 20:00 or earlier'](./README-images/form_time_too_late.png) | &check;
+Fill out the "Personal Data" and "Date & Time" sections as per the format and requirements, then click on 'Submit' button of the form on the contact page | Receive message ['Please select an item in the list'](./README-images/form_pet_name_message.png) | &check;
+Select the pet from the list, then click on 'Submit' button of the form on the contact page  | Receive message ['Please select an item in the list'](./README-images/form_event_message.png) | &check;
+Fill out ['all sections'](./README-images/form_all_sections.png) as per the format and requirements, then click on 'Submit' button of the form on the contact page | Open the confirmation page with ['thank you'](./README-images/form_thank_you_message.png) message | &check;
+Click on 'Back to home page' button on the confirmation page  | Open the home page | &check;
 
 ### Fixed Bugs
 
