@@ -176,7 +176,7 @@ Type in letters in the phone number field in the form on the contact page | Rece
 Type in 8 digits in the phone number field in the form on the contact page | Receive message ['Please match the format requested'](./README-images/form_tel_format_incomplete_message.png) | &check;
 Type in more than 10 digits in the phone number field in the form on the contact page | Extra digits are not displayed on the screen. Only the first 10 digits are accepted | &check;
 Fill out the "Personal Data" section as per the format and requirements, then click on 'Submit' button of the form on the contact page | Receive message ['Please fill in this field'](./README-images/form_date_message.png) | &check;
-Fill in the date (only the dates from 24.06.2024 to 31.12.2024 are accepted by the form, in Chrome it does not allow you to even try to choose other ['date'](./README-images/Chrome_choose_date.png) or ['year'](./README-images/Chrome_choose_year.png)), then click on 'Submit' button of the form on the contact page  | Receive message ['Please fill in this field'](./README-images/form_time_message.png) | &check;
+Fill in the date (only the dates from 24.06.2024 to 31.12.2024 are accepted by the form, in Chrome it does not allow you to even try to choose other ['date'](./README-images/chrome_choose_date.png) or ['year'](./README-images/chrome_choose_year.png)), then click on 'Submit' button of the form on the contact page  | Receive message ['Please fill in this field'](./README-images/form_time_message.png) | &check;
 Choose time outside working hours, then click on 'Submit' button of the form on the contact page | Receive message ['Value must be 09:00 or later'](./README-images/form_time_too_early.png) or ['Value must be 20:00 or earlier'](./README-images/form_time_too_late.png) | &check;
 Fill out the "Personal Data" and "Date & Time" sections as per the format and requirements, then click on 'Submit' button of the form on the contact page | Receive message ['Please select an item in the list'](./README-images/form_pet_name_message.png) | &check;
 Select the pet from the list, then click on 'Submit' button of the form on the contact page  | Receive message ['Please select an item in the list'](./README-images/form_event_message.png) | &check;
@@ -196,8 +196,8 @@ Click on 'Back to home page' button on the confirmation page  | Open the home pa
 - Due to images' size Home page and Gallery page were dropping in Perfomance. To avoid it, all images were restocked in a smaller size and converted to Webp format. They were also optimized. As the result, the pages load much faster.
 
 ### Unfixed Bugs
-- The form cannot be validated to specify the input characters. Currently you can use digits as your name and surname. The day of the week cannot be validated too, the users can choose Sunday, even tho the shelter is closed at this time. The time input allows to choose 9am for Saturday and 8pm for weekdays, which is also incorrect. This can be fixed using JavaScript.
 
+- The form cannot be validated to specify the input characters. Currently you can use digits as your name and surname. The day of the week cannot be validated too, the users can choose Sunday, even tho the shelter is closed at this time. The time input allows to choose 9am for Saturday and 8pm for weekdays, which is also incorrect. This can be fixed using JavaScript.
 
 
 ## Deployment
@@ -230,34 +230,34 @@ Click on 'Back to home page' button on the confirmation page  | Open the home pa
 ## Credits 
 
   - ### Tutorials & Content
-    - [Love Running project](https://github.com/Code-Institute-Solutions/love-running-v3)
-    - [Code institute](https://learn.codeinstitute.net/)
-    - [W3Schools](https://www.w3schools.com/)
-    - [MDN](https://developer.mozilla.org/en-US/)
-    - [Lake-dippers Readme](https://github.com/tmarkec/Lake-dippers)
-    - [Bark 'n bath Readme](https://github.com/vtoth13/bark-n-bath/blob/main/README.md)    
+    - [Love Running project](https://github.com/Code-Institute-Solutions/love-running-v3) - The header and footer examples were taken from this project and customized. As well as the use of hero image.    
+    - [Code institute](https://learn.codeinstitute.net/) - The tutorials and videos were used to choose the elements and implement the styles.
+    - [W3Schools](https://www.w3schools.com/) - The information about elements, values and attributes was used.
+    - [MDN](https://developer.mozilla.org/en-US/) - The information about elements, values and attributes was used.
+    - [Lake-dippers Readme](https://github.com/tmarkec/Lake-dippers)- The Readme file was used as an example for some sections and layout in my Readme file.
+    - [Bark 'n bath Readme](https://github.com/vtoth13/bark-n-bath/blob/main/README.md) - The Readme file was used as an example for some sections and layout in my Readme file. 
 
   - ### Graphics
-    - [ColorSpace](https://mycolor.space/)
-    - [Adobe Color Contrast Checker](https://color.adobe.com/create/color-contrast-analyzer)
-    - [Tinify image optimizer](https://tinypng.com/)
-    - [Convertio](https://convertio.co/)
-    - [Cloudconvert](https://cloudconvert.com/)
-    - [Pixelied](https://pixelied.com/convert/jpg-converter)
-    - [Font Awesome](https://fontawesome.com/) 
-    - [Name that color](https://chir.ag/projects/name-that-color/#6195ED)
-    - [hex to rgba](https://rgbacolorpicker.com/hex-to-rgba)
-    - [Google fonts](https://fonts.google.com/knowledge)
-    - [Fontjoy](https://fontjoy.com/)
+    - [ColorSpace](https://mycolor.space/) - This tool was used to find the most suitable colors for the design.
+    - [Adobe Color Contrast Checker](https://color.adobe.com/create/color-contrast-analyzer) - This tool was used to check contrast for text and background colors.
+    - [Tinify image optimizer](https://tinypng.com/) - This tool was used to optimize the images.
+    - [Convertio](https://convertio.co/) - This tool was used to convert JPEG files into WEBP file format.
+    - [Cloudconvert](https://cloudconvert.com/) - This tool was used to convert JPEG files into WEBP file format.
+    - [Pixelied](https://pixelied.com/convert/jpg-converter) - This tool was used to convert JPEG files into WEBP file format.
+    - [Font Awesome](https://fontawesome.com/) - The icons on the website are taken from this library.
+    - [Name that color](https://chir.ag/projects/name-that-color/#6195ED) - This tool was used to identify the names of the colors used for design.
+    - [hex to rgba](https://rgbacolorpicker.com/hex-to-rgba) - This tool was used to convert hex value of color into rgba, for the form on the tablet layout.
+    - [Google fonts](https://fonts.google.com/knowledge) - The Fonts were improrted from this library.
+    - [Fontjoy](https://fontjoy.com/) - This tool was used to find the matching font-families for the design.
 
   - ### Photos & Logo
-    - [Pexels](https://www.pexels.com/) 
-    - [Pixabay](https://pixabay.com/de/) 
-    - [LOGO](https://logo.com/)
+    - [Pexels](https://www.pexels.com/) - The images on the website were taken from this library.
+    - [Pixabay](https://pixabay.com/de/) - The images on the website were taken from this library.
+    - [LOGO](https://logo.com/) - The logo has been created using the tools on this website.
 
   - ### Text content
-    - [AI Text Generator](https://deepai.org/chat/text-generator)
-    - [Fake address Generator](https://countryzipcode.com/fake-address-generator)  
+    - [AI Text Generator](https://deepai.org/chat/text-generator) - The text content on the home page was generated using this tool.
+    - [Fake address Generator](https://countryzipcode.com/fake-address-generator) - This tool was used to generate the fake address for the footer.
 
   - ### Acknowledgment
     - [Cohort Facilitator - Marko](https://github.com/tmarkec) for support in the classroom and guidence through the course.
