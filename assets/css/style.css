@@ -296,6 +296,10 @@ legend {
     text-indent: 15%;
 }
 
+#not-found a {
+    color: #F5FAF8;
+}
+
 /* Footer section */
 
 footer {
