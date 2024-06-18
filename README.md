@@ -150,7 +150,7 @@ Savannah | &check;
     - [Gallery page](./README-images/gallery_page_validation.png)
     - [Contact page](./README-images/contact_page_validation.png)
     - [Confirmation page](./README-images/confirmation_page_validation.png)   
-    - [404 page](./README-images/404page_validation.png.png)   
+    - [Custom 404 page](./README-images/404page_validation.png.png)   
 - #### CSS
   - No errors or warnings to show. (Except the warning about imported Google Fonts "Imported style sheets are not checked in direct input and file upload modes")
     - [CSS validation](./README-images/css_validation.png)
@@ -161,6 +161,7 @@ Savannah | &check;
     - [Gallery page](./README-images/gallery_page_lighthouse.png)
     - [Contact page](./README-images/contact_page_lighthouse.png)
     - [Confirmation page](./README-images/confirmation_page_lighthouse.png)
+    - [Custom 404 page](./README-images/404page_lighthouse.png)  
 
 ### Functional texting
 
@@ -189,7 +190,7 @@ Select the pet from the list, then click on 'Submit' button of the form on the c
 Fill out ['all sections'](./README-images/form_all_sections.png) as per the format and requirements, then click on 'Submit' button of the form on the contact page | Open the confirmation page with ['thank you'](./README-images/form_thank_you_message.png) message | &check;
 Click on 'Back to home page' button on the confirmation page  | Open the home page | &check;
 Use broken link to access the website, for example 'https://vl-ocean.github.io/lucky-paw/ruby' | Open custom 404 page | &check;
-Click on 'Click here' button on the custom 404 page  | Open the home page | &check;
+Click on 'Back to home page' button on the custom 404 page  | Open the home page | &check;
 
 ### User Stories testing
 
