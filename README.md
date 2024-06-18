@@ -52,7 +52,7 @@ Balsamiq was used to create the wireframes during the design process
 
 
 ## Existing Features 
-The website has four pages. Each page has a heading with logo and navigation bar (icon for mobile) and a footer.
+The website has five pages. Each page has a heading with logo and navigation bar (icon for mobile) and a footer.
 
 - ### Logo
 
@@ -98,6 +98,11 @@ The website has four pages. Each page has a heading with logo and navigation bar
 
 ![Confirmation page](./README-images/confirmation_page.png)
  #### The user is assured that the form he filled has been received and will be processed. There is also an email address provided in case the user wants to cancel the appointment later.
+
+- ### Custom 404 page 
+
+![404 page](./README-images/custom_404_page.png)
+ #### In case the user used a broken link, he will land onto the custom 404 page. It offers the user a link to go back to home page and continue from there.
 
 
 ## Future features 
@@ -145,6 +150,7 @@ Savannah | &check;
     - [Gallery page](./README-images/gallery_page_validation.png)
     - [Contact page](./README-images/contact_page_validation.png)
     - [Confirmation page](./README-images/confirmation_page_validation.png)   
+    - [404 page](./README-images/404page_validation.png.png)   
 - #### CSS
   - No errors or warnings to show. (Except the warning about imported Google Fonts "Imported style sheets are not checked in direct input and file upload modes")
     - [CSS validation](./README-images/css_validation.png)
@@ -182,6 +188,8 @@ Fill out the "Personal Data" and "Date & Time" sections as per the format and re
 Select the pet from the list, then click on 'Submit' button of the form on the contact page  | Receive message ['Please select an item in the list'](./README-images/form_event_message.png) | &check;
 Fill out ['all sections'](./README-images/form_all_sections.png) as per the format and requirements, then click on 'Submit' button of the form on the contact page | Open the confirmation page with ['thank you'](./README-images/form_thank_you_message.png) message | &check;
 Click on 'Back to home page' button on the confirmation page  | Open the home page | &check;
+Use broken link to access the website, for example 'https://vl-ocean.github.io/lucky-paw/ruby' | Open custom 404 page | &check;
+Click on 'Click here' button on the custom 404 page  | Open the home page | &check;
 
 ### User Stories testing
 
@@ -244,6 +252,7 @@ Click on 'Back to home page' button on the confirmation page  | Open the home pa
     - [MDN](https://developer.mozilla.org/en-US/) - The information about elements, values and attributes was used.
     - [Lake-dippers Readme](https://github.com/tmarkec/Lake-dippers)- The Readme file was used as an example for some sections and layout in my Readme file.
     - [Bark 'n bath Readme](https://github.com/vtoth13/bark-n-bath/blob/main/README.md) - The Readme file was used as an example for some sections and layout in my Readme file. 
+    - [GitHub Docs](https://docs.github.com/en) - The information was used to create and upload 404 page.
 
   - ### Graphics
     - [ColorSpace](https://mycolor.space/) - This tool was used to find the most suitable colors for the design.
