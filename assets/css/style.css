@@ -216,6 +216,8 @@ legend {
     border-radius: 5px;
     padding: 2%;
     border-color: #364B44;
+    border-width: 2px;
+    outline: none;
 }
 
 .text-input:focus {
