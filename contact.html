@@ -34,32 +34,46 @@
 
     <!-- Main section -->
     <main>
-        <div id="hero"></div>    
+        <!-- The container of the hero image -->
+        <div id="hero"></div>
+        <!-- The main content of the page -->    
         <section id="contact">
             <div class="page-heading">
             <h1>Get in Touch</h1>
             </div>
+            <!-- The form -->
             <form id="contact-form" action="confirmation.html" method="get">
+                <!-- The first part of the form -->
                 <fieldset>
                     <legend>Personal Data</legend>
+                    <!-- The first name field -->
                     <label for="fname">First name <span class="mandatory">*</span></label>
                     <input type="text" name="first_name" id="fname" class="text-input" autocomplete="given-name" maxlength="50" required>
+                    <!-- The last name field -->
                     <label for="lname">Last name <span class="mandatory">*</span></label>
                     <input type="text" name="last_name" id="lname" class="text-input" autocomplete="family-name" maxlength="50" required>
+                    <!-- The phone number field -->
                     <label for="phone">Phone number <span class="mandatory">*</span></label>
                     <input type="tel" name="phone" id="phone" class="text-input" pattern="[0-9]{10}" maxlength="10" placeholder="0123456789" autocomplete="tel" required>
+                    <!-- The warning for the user -->
                     <span class="mandatory-text">An asterisk (*) indicates that the field is mandatory</span>
                 </fieldset>
+                <!-- The second part of the form -->
                 <fieldset>
                     <legend>Date & Time</legend>
+                    <!-- The date field -->
                     <label for="date">Date <span class="mandatory">*</span></label>
                     <input type="date" name="date" id="date" class="text-input" min="2024-06-24" max="2024-12-31" required>
+                    <!-- The time field -->
                     <label for="time">Time (opening hours 09:00 to 18:00 Mon to Fri, 11:00 to 20:00 Sat) <span class="mandatory">*</span></label>
                     <input type="time" name="time" id="time" class="text-input" min="09:00" max="20:00" required>
+                    <!-- The warning for the user -->
                     <span class="mandatory-text">An asterisk (*) indicates that the field is mandatory</span>
                 </fieldset>
+                <!-- The third part of the form -->
                 <fieldset>
                     <legend>Event</legend>
+                    <!-- The choice of the pet -->
                     <label for="pet">Pet name <span class="mandatory">*</span></label>
                     <select name="pet" id="pet" class="text-input" required>
                         <option value="">--Please choose an option--</option>
@@ -87,6 +101,7 @@
                         <option value="wasabi">Wasabi</option>
                         <option value="willow">Willow</option>
                     </select>
+                    <!-- The choice of the event -->
                     <label for="event">Event type <span class="mandatory">*</span></label>
                     <select name="event" id="event" class="text-input" required>
                         <option value="">--Please choose an option--</option>
@@ -96,10 +111,13 @@
                         <option value="feed_and_bath">Feed and bath</option>
                         <option value="take_home_for_weekends">Take home for weekends</option>                        
                     </select>
+                    <!-- The warning for the user -->
                     <span class="mandatory-text">An asterisk (*) indicates that the field is mandatory</span>
                 </fieldset>
+                <!-- The button -->
                 <button type="submit" class="button">Submit</button>            
             </form>
+            <!-- The container for two pictures on the sides for large screens -->
             <div class="contact-background">
                 <div class="left-sided"></div>
                 <div class="right-sided"></div>

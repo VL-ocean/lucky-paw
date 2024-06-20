@@ -11,6 +11,7 @@
 
 body {
     min-height: 100vh;
+    /* Mobile layout */
     display: flex;
     flex-direction: column;
     background-color: #F5FAF8;
@@ -35,6 +36,7 @@ ul {
 /* Header section */
 
 header {
+    /* To ensure the layout of the header on top of anything else */
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -63,6 +65,7 @@ header {
     cursor: pointer;
 }
 
+/* The display of the current page on the menu */
 .active {
     border-bottom: 2px solid #F98383;
     border-radius: 10px;
@@ -79,6 +82,7 @@ nav {
     border-radius: 10px;
 }
 
+/* The dropdown functionality */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -104,7 +108,7 @@ main {
 #hero {
     height: 200px;
     width: 100%;
-    background-image: url("../images/hero_image.webp");
+    background-image: url("../images/hero-image.webp");
     background-size: cover;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -156,10 +160,12 @@ section img {
     margin-bottom: 10px;
 }
 
+/* The parent box of the image */
 .image-box {
     position: relative;
 }
 
+/* The child box that attaches to the parent */
 .nickname {
     position: absolute;
     top: 0;
@@ -193,6 +199,7 @@ section img {
 
 fieldset {
     border-radius: 10px;
+    /* Mobile layout */
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -220,11 +227,13 @@ legend {
     outline: none;
 }
 
+/* Changes style when the user is filling out the field */
 .text-input:focus {
     background-color: #85B5A4;
     color: #F5FAF8;
 }
 
+/* The asterisk part of the form */
 .mandatory {
     color: red;
 }
@@ -236,6 +245,7 @@ legend {
     padding-top: 10px;
 }
 
+/* The button style */
 .button {
     display: block;
     margin: 10px auto;
@@ -373,19 +383,23 @@ footer h3 {
         padding-left: 15px;
     }
 
+    
     .nav-toggle-label {
+        /* Hides the burger icon */
         display: none;
     }
 
     /* Main section */
-
+    
     .left {
+        /* Moves the picture to the left and text to the right */
         display: flex;
         flex-direction: row-reverse;
         margin-bottom: 20px;
     }
-
+    
     .right {
+        /* Moves the picture to the right and text to the left */
         display: flex;
         flex-direction: row;
         margin-bottom: 20px;
@@ -410,7 +424,7 @@ footer h3 {
     /* Contact page */
 
     #contact {
-        background: no-repeat center / cover url('../images/contact_tablet_screen.webp');
+        background: no-repeat center / cover url('../images/contact-tablet-screen.webp');
         border-radius: 10px;
         height: fit-content;
         width: 100%;
@@ -422,6 +436,7 @@ footer h3 {
     }
 
     fieldset {
+        /* The form transforms into the row */
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
@@ -433,6 +448,7 @@ footer h3 {
     }
 
     label, .text-input {
+        /* Ensures that the labels and inputs will not jump to the next row */
         width: 225px;
     }
 
@@ -446,6 +462,7 @@ footer h3 {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
+    /* Effects for the buttons and menu items */
     #menu a:hover {
         border-bottom: 2px solid #F98383;
         border-radius: 10px;
@@ -479,9 +496,10 @@ footer h3 {
         flex-wrap: wrap;
     }
 
-    .left, .right {
+    .left, .right {        
         flex-basis: 40%;
         flex-grow: 1;
+        /* The opposite layout to the mobile */
         flex-direction: column-reverse;
         justify-content: flex-end;
     }
@@ -543,6 +561,7 @@ footer h3 {
         background-color: #F5FAF8;
     }
 
+    /* The container with pictures is fixed to the section */
     .contact-background {
         position: absolute;
         top: 0;

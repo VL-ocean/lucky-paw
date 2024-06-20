@@ -46,9 +46,9 @@ Gitpod was used as a platform to develop code in a ready-to-code developer envir
  - #### [Balsamic](https://balsamiq.com/)
 Balsamiq was used to create the wireframes during the design process
 
-![Balsamic image](./README-images/wireframe_main.png)
-![Balsamic image](./README-images/wireframe_gallery.png)
-![Balsamic image](./README-images/wireframe_contact.png)
+![Balsamic image](./README-images/wireframe-main.png)
+![Balsamic image](./README-images/wireframe-gallery.png)
+![Balsamic image](./README-images/wireframe-contact.png)
 
 
 ## Existing Features 
@@ -62,33 +62,33 @@ The website has five pages. Each page has a heading with a logo and a navigation
 - ### Navigation
 
 ![Navigation](./README-images/nav.png) 
-![Navigation on mobile](./README-images/nav_mobile.png)
+![Navigation on mobile](./README-images/nav-mobile.png)
  #### The navigation bar provides the structure of the website. It shows the user what page it is on the screen. It gives the user the ability to move to any other page on the website.
 
 - ### Footer
 
 ![Footer](./README-images/footer.png)
-![Footer on mobile](./README-images/footer_mobile.png)
+![Footer on mobile](./README-images/footer-mobile.png)
  #### The footer is divided into three sections. Users can find an address, opening hours, and links to the social media, which opens in a separate tab.
 
 - ### Hero image
 
-![Hero image](./README-images/hero%20image.png)
+![Hero image](./README-images/hero-image.png)
  #### It attracts the user's attention, showing the cat in the woman's hands, and it encourages the user to experience the happiness of having a pet. The hero image is present on all pages as part of the design.
 
 - ### Home page 
 
-![Home page](./README-images/home_page.png)
+![Home page](./README-images/home-page.png)
  #### It contains four images, each having a heading and paragraph. The images support the content of the paragraph, increasing its effect. The layout of the images and text are changing depending on the device (mobile, tablet, desktop). In the last paragraph, there is an embedded link that takes the user to the contact page.
 
 - ### Gallery page 
 
-![Gallery page](./README-images/gallery_page.png)
+![Gallery page](./README-images/gallery-page.png)
  #### The purpose of this page is to introduce the pets to the user. It has a heading and 23 pictures of different pets with their names and ages displayed at the top of the pictures. This page gives the user the possibility to choose a future pet and remember the name to use it later in the form.
 
 - ### Contact page / Form
 
-![Contact page](./README-images/contact_page.png)
+![Contact page](./README-images/contact-page.png)
  #### This is the place where the user can schedule a visit to the center. Mandatory fields are marked for the user's convenience. 
  - The general information about the user is required such as name and phone number for contact in case of any changes. The phone number input does not allow to enter letters or more digits than necessary.
  - The calendar and time parts are provided to eliminate the need to type that information manually. The calendar is set to only allow the user to choose dates from 24.06.2024 to 31.12.2024 and time from 9 am to 8 pm. 
@@ -96,12 +96,12 @@ The website has five pages. Each page has a heading with a logo and a navigation
 
 - ### Confirmation page 
 
-![Confirmation page](./README-images/confirmation_page.png)
+![Confirmation page](./README-images/confirmation-page.png)
  #### The user is assured that the form he filled has been received and will be processed. There is also an email address provided in case the user wants to cancel the appointment later.
 
 - ### Custom 404 page 
 
-![404 page](./README-images/custom_404_page.png)
+![404 page](./README-images/custom-404-page.png)
  #### In case the user uses a broken link, he will land on the custom 404 page. It offers the user a link to go back to the home page and continue from there.
 
 
@@ -146,24 +146,24 @@ Savannah | &check;
 ### Validator Testing 
 - #### HTML
   - No errors or warnings to show.
-    - [Home page](./README-images/home_page_validation.png)
-    - [Gallery page](./README-images/gallery_page_validation.png)
-    - [Contact page](./README-images/contact_page_validation.png)
-    - [Confirmation page](./README-images/confirmation_page_validation.png)   
-    - [Custom 404 page](./README-images/404page_validation.png.png)   
+    - [Home page](./README-images/home-page-validation.png)
+    - [Gallery page](./README-images/gallery-page-validation.png)
+    - [Contact page](./README-images/contact-page-validation.png)
+    - [Confirmation page](./README-images/confirmation-page-validation.png)   
+    - [Custom 404 page](./README-images/404page-validation.png)   
 - #### CSS
   - No errors or warnings to show. (Except for the warning about imported Google Fonts "Imported style sheets are not checked in direct input and file upload modes")
-    - [CSS validation](./README-images/css_validation.png)
+    - [CSS validation](./README-images/css-validation.png)
 
 ### Accessibility and performance
   - Using Google Lighthouse I confirmed that the website is readable and accessible. It performs well.
-    - [Home page](./README-images/home_page_lighthouse.png)
-    - [Gallery page](./README-images/gallery_page_lighthouse.png)
-    - [Contact page](./README-images/contact_page_lighthouse.png)
-    - [Confirmation page](./README-images/confirmation_page_lighthouse.png)
-    - [Custom 404 page](./README-images/404page_lighthouse.png)  
+    - [Home page](./README-images/home-page-lighthouse.png)
+    - [Gallery page](./README-images/gallery-page-lighthouse.png)
+    - [Contact page](./README-images/contact-page-lighthouse.png)
+    - [Confirmation page](./README-images/confirmation-page-lighthouse.png)
+    - [Custom 404 page](./README-images/404page-lighthouse.png)  
 
-### Functional texting
+### Functional testing
 
 Action |  Expected result | Pass
 --- | --- | :---:
@@ -176,18 +176,18 @@ Click on the 'Get in Touch' navigation item | Open the contact page | &check;
 Click on the 'Facebook' footer icon | Open the Facebook page in a new tab | &check;
 Click on the 'Instagram' footer icon | Open the Instagram page in a new tab | &check;
 Click on the 'TikTok' footer icon | Open the TikTok page in a new tab | &check;
-Click on the 'Submit' button without filling any fields on the form on the contact page  | Receive the message ['Please fill in this field'](./README-images/form_fname_message.png) | &check;
-Fill in the first name only, then click on the 'Submit' button of the form on the contact page  | Receive the message ['Please fill in this field'](./README-images/form_lname_message.png) | &check;
-Fill in the first name and the last name only, then click on the 'Submit' button of the form on the contact page | Receive the message ['Please fill in this field'](./README-images/form_tel_message.png) | &check;
-Type in letters in the phone number field in the form on the contact page | Receive the message ['Please match the format requested'](./README-images/form_tel_format_message.png) | &check;
-Type in 8 digits in the phone number field in the form on the contact page | Receive the message ['Please match the format requested'](./README-images/form_tel_format_incomplete_message.png) | &check;
+Click on the 'Submit' button without filling any fields on the form on the contact page  | Receive the message ['Please fill in this field'](./README-images/form-fname-message.png) | &check;
+Fill in the first name only, then click on the 'Submit' button of the form on the contact page  | Receive the message ['Please fill in this field'](./README-images/form-lname-message.png) | &check;
+Fill in the first name and the last name only, then click on the 'Submit' button of the form on the contact page | Receive the message ['Please fill in this field'](./README-images/form-tel-message.png) | &check;
+Type in letters in the phone number field in the form on the contact page | Receive the message ['Please match the format requested'](./README-images/form-tel-format-message.png) | &check;
+Type in 8 digits in the phone number field in the form on the contact page | Receive the message ['Please match the format requested'](./README-images/form-tel-format-incomplete-message.png) | &check;
 Type in more than 10 digits in the phone number field in the form on the contact page | Extra digits are not displayed on the screen. Only the first 10 digits are accepted | &check;
-Fill out the "Personal Data" section as per the format and requirements, then click on the 'Submit' button of the form on the contact page | Receive the message ['Please fill in this field'](./README-images/form_date_message.png) | &check;
-Fill in the date (only the dates from 24.06.2024 to 31.12.2024 are accepted by the form, in Chrome it does not allow you to even try to choose another ['date'](./README-images/chrome_choose_date.png) or ['year'](./README-images/chrome_choose_year.png)), then click on the 'Submit' button of the form on the contact page  | Receive the message ['Please fill in this field'](./README-images/form_time_message.png) | &check;
-Choose time outside working hours, then click on the 'Submit' button of the form on the contact page | Receive the message ['Value must be 09:00 or later'](./README-images/form_time_too_early.png) or ['Value must be 20:00 or earlier'](./README-images/form_time_too_late.png) | &check;
-Fill out the "Personal Data" and "Date & Time" sections as per the format and requirements, then click on the 'Submit' button of the form on the contact page | Receive the message ['Please select an item in the list'](./README-images/form_pet_name_message.png) | &check;
-Select the pet from the list, then click on the 'Submit' button of the form on the contact page  | Receive the message ['Please select an item in the list'](./README-images/form_event_message.png) | &check;
-Fill out ['all sections'](./README-images/form_all_sections.png) as per the format and requirements, then click on the 'Submit' button of the form on the contact page | Open the confirmation page with a ['thank you'](./README-images/form_thank_you_message.png) message | &check;
+Fill out the "Personal Data" section as per the format and requirements, then click on the 'Submit' button of the form on the contact page | Receive the message ['Please fill in this field'](./README-images/form-date-message.png) | &check;
+Fill in the date (only the dates from 24.06.2024 to 31.12.2024 are accepted by the form, in Chrome it does not allow you to even try to choose another ['date'](./README-images/chrome-choose-date.png) or ['year'](./README-images/chrome-choose-year.png)), then click on the 'Submit' button of the form on the contact page  | Receive the message ['Please fill in this field'](./README-images/form-time-message.png) | &check;
+Choose time outside working hours, then click on the 'Submit' button of the form on the contact page | Receive the message ['Value must be 09:00 or later'](./README-images/form-time-too-early.png) or ['Value must be 20:00 or earlier'](./README-images/form-time-too-late.png) | &check;
+Fill out the "Personal Data" and "Date & Time" sections as per the format and requirements, then click on the 'Submit' button of the form on the contact page | Receive the message ['Please select an item in the list'](./README-images/form-pet-name-message.png) | &check;
+Select the pet from the list, then click on the 'Submit' button of the form on the contact page  | Receive the message ['Please select an item in the list'](./README-images/form-event-message.png) | &check;
+Fill out ['all sections'](./README-images/form-all-sections.png) as per the format and requirements, then click on the 'Submit' button of the form on the contact page | Open the confirmation page with a ['thank you'](./README-images/form-thank-you-message.png) message | &check;
 Click on the 'Back to home page' button on the confirmation page  | Open the home page | &check;
 Use the broken link to access the website, for example, 'https://vl-ocean.github.io/lucky-paw/ruby' | Open custom 404 page | &check;
 Click on the 'Back to home page' button on the custom 404 page  | Open the home page | &check;
